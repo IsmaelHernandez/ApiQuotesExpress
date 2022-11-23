@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "name": "quotes-api",
+  "version": "1.0.0",
+  "description": "Creacion de api-citas de academlo",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "dev": "nodemon ./src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "nodemon",
+    "api-rest",
+    "route",
+    "controlles",
+    "models",
+    "services"
+  ],
+  "author": "Ismael hdz",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
